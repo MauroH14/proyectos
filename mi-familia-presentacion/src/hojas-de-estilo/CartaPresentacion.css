@@ -1,0 +1,38 @@
+.presentacion {
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    color: rgb(71, 71, 71);
+    background-image: radial-gradient(circle at center center, transparent,rgb(255,245,245)),linear-gradient(309deg, rgba(255,146,146, 0.15) 0%, rgba(255,146,146, 0.15) 50%,rgba(206, 206, 206,0.05) 50%, rgba(206, 206, 206,0.05) 100%),linear-gradient(39deg, rgba(255,255,255, 0) 0%, rgba(255,255,255, 0) 50%,rgba(255,193,193, 0.29) 50%, rgba(255,193,193, 0.29) 100%),linear-gradient(144deg, rgba(219,150,150, 0.05) 0%, rgba(219,150,150, 0.05) 50%,rgba(111, 111, 111,0.05) 50%, rgba(111, 111, 111,0.05) 100%),linear-gradient(166deg, rgba(180,75,75, 0.05) 0%, rgba(180,75,75, 0.05) 50%,rgba(220, 220, 220,0.05) 50%, rgba(220, 220, 220,0.05) 100%),linear-gradient(212deg, rgba(255,3,3, 0.05) 0%, rgba(255,3,3, 0.05) 50%,rgba(255,255,255, 0.05) 50%, rgba(255,255,255, 0.05) 100%),radial-gradient(circle at center center, rgb(254,254,254),rgb(254,254,254));
+} 
+
+.imagen {
+    height: 100%;
+    width: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.nombre{
+    font-size: 30px;
+    font-weight: 1.3rem;
+}
+
+.vinculo{
+    font-size: 30px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.descripcion{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
